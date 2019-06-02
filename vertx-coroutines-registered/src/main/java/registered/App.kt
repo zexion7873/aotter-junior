@@ -69,7 +69,8 @@ class App : CoroutineVerticle() {
   }
 
   /**
-   * 凱哥註冊用
+   * 實作⼀個不重複使⽤者 username 註冊申請機制，
+   * 若遇到重複的 username，則在末尾⾃動後綴阿拉伯數字
    */
   private suspend fun register(ctx: RoutingContext) {
 
