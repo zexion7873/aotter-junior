@@ -1,13 +1,2 @@
-vertx-coroutines-registered/target/classes/registered/App$start$1.class
-vertx-coroutines-registered/target/classes/registered/App$register$1.class
-vertx-coroutines-registered/.idea/workspace.xml
-vertx-coroutines-registered/.idea/compiler.xml
-vertx-coroutines-registered/target/classes/registered/App.class
-vertx-coroutines-registered/target/classes/registered/App$start$3.class
-vertx-coroutines-registered/target/classes/META-INF/vertx-coroutines-registered.kotlin_module
-vertx-coroutines-registered/target/classes/registered/MainKt$main$1.class
-vertx-coroutines-registered/target/classes/registered/MainKt$$$main.class
-vertx-coroutines-registered/target/classes/registered/App$coroutineHandler$1.class
-vertx-coroutines-registered/target/classes/registered/App$coroutineHandler$1$1.class
-vertx-coroutines-registered/.idea/misc.xml
-vertx-coroutines-registered/target/classes/registered/MainKt.class
+vertx-coroutines-registered/target/*
+vertx-coroutines-registered/.idea/*

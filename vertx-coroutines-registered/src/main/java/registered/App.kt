@@ -24,7 +24,7 @@ class App : CoroutineVerticle() {
 
   private lateinit var client: JDBCClient
   private lateinit var redisClient: RedisClient
-  private val host = "192.168.99.100"
+  private val host = "127.0.0.1"
   private val redisPort = 7000
   private val mysqlPort = 6999
   private val dbName = "test"
