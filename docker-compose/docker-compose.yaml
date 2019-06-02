@@ -1,0 +1,20 @@
+version: "3"
+services:
+  mysql:
+      image: mysql:5.7
+      container_name: vertx-coroutines-mysql
+      command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci 
+      restart: always
+      environment:
+        MYSQL_ROOT_PASSWORD: 1234
+      ports:
+        - "6999:3306"
+      volumes:
+        - "./mysql-init/account.sql:/docker-entrypoint-initdb.d/account.sql"
+  redis:
+      image: redis
+      container_name: vertx-coroutines-redis
+      command: redis-server
+      restart: always
+      ports:
+        - "7000:6379"
